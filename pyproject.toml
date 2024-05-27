@@ -6,7 +6,8 @@ authors = ["JJ Merelo <jjmerelo@gmail.com>"]
 license = "GPL"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">=3.9,<3.11"
+eckity = "^0.3.4"
 
 [tool.poetry.dev-dependencies]
 
