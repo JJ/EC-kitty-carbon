@@ -8,6 +8,7 @@ license = "GPL"
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
 eckity = "^0.3.4"
+codecarbon = "^2.4.2"
 
 [tool.poetry.dev-dependencies]
 
