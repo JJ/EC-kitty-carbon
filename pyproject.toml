@@ -6,7 +6,7 @@ authors = ["JJ Merelo <jjmerelo@gmail.com>"]
 license = "GPL"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 
