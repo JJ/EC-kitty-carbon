@@ -2,6 +2,8 @@ from eckity.algorithms.simple_evolution import SimpleEvolution
 from eckity.subpopulation import Subpopulation
 from examples.treegp.non_sklearn_mode.symbolic_regression.sym_reg_evaluator import SymbolicRegressionEvaluator
 
+from codecarbon import track_emissions
+@track_emissions(offline=True, country_iso_code="ESP")
 def main():
     algo = SimpleEvolution(Subpopulation(SymbolicRegressionEvaluator()))
     algo.evolve()
