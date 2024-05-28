@@ -12,6 +12,7 @@ codecarbon = "^2.4.2"
 
 nvidia-ml-py = "^12.550.52"
 pyjoules = "^0.5.1"
+ea2p = "^0.3"
 [tool.poetry.dev-dependencies]
 
 [build-system]

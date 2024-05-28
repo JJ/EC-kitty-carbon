@@ -180,6 +180,24 @@ files = [
 ]
 
 [[package]]
+name = "ea2p"
+version = "0.3"
+description = "EA2P : A flexible and accurate multi-plateforms profiling tool for fine-grained energy measurement of applications"
+optional = false
+python-versions = "*"
+files = [
+    {file = "EA2P-0.3-py3-none-any.whl", hash = "sha256:e987ace501bdbfc2370b255feeeb825849ef6f0d16f561bcddbc23e55264ed72"},
+    {file = "EA2P-0.3.tar.gz", hash = "sha256:e99978769c3ebf55bf04f7fbc6ff752bc36d7d4a6778c0db8094e805087871df"},
+]
+
+[package.dependencies]
+numpy = "*"
+pandas = "*"
+psutil = "*"
+py-cpuinfo = "*"
+requests = "*"
+
+[[package]]
 name = "eckity"
 version = "0.3.4"
 description = "EC-KitY: Evolutionary Computation Tool Kit in Python."
@@ -627,4 +645,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.11"
-content-hash = "29fc8e1b8886f708b7def5c3c13fa5d12fb70dd86cee2d121317135c75fe6c6f"
+content-hash = "1dc89f09d23afcf6054bf9e0acceea2c84d45d1789e2d8cd5aeb681d7aca56b5"
