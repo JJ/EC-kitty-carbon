@@ -10,6 +10,8 @@ python = ">=3.9,<3.11"
 eckity = "^0.3.4"
 codecarbon = "^2.4.2"
 
+nvidia-ml-py = "^12.550.52"
+pyjoules = "^0.5.1"
 [tool.poetry.dev-dependencies]
 
 [build-system]

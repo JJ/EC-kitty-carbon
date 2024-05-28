@@ -3,7 +3,9 @@ from eckity.subpopulation import Subpopulation
 from examples.treegp.non_sklearn_mode.symbolic_regression.sym_reg_evaluator import SymbolicRegressionEvaluator
 
 from codecarbon import track_emissions
-@track_emissions(offline=True, country_iso_code="ESP")
+from pyJoules.energy_meter import measure_energy
+
+@measure_energy
 def main():
     algo = SimpleEvolution(Subpopulation(SymbolicRegressionEvaluator()))
     algo.evolve()
