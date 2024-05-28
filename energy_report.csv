@@ -1,0 +1,3 @@
+Project Name,Datetime,GPU 0,ram,Total Elapsed CPU Time (sec),Package,Algorithm,Algorithm's parameters
+test_project,05/28/2024 10:24:46,0.21035,0.0,37.10847,,,
+test_project,05/28/2024 10:25:04,0.20035,0.0695,0.0,11.62976,,,
